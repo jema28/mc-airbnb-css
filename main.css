@@ -1,0 +1,35 @@
+/* GENERAL */
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* HEADER */
+
+.header {}
+
+.logo {}
+
+/* NAV */
+
+.nav {}
+
+.nav__list {}
+
+.nav__item {}
+
+/* SEARCH BOX */
+
+.search-box {}
+
+.search-box__icon {}
+
+.search-box__input {}
+
+/* DETAIL CARD */
+
+.detail-card {}
+
+.detail-card__image {}
