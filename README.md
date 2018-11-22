@@ -11,6 +11,7 @@ Your task is to implement the following **mobile design** using CSS:
 
 **Notes:**
 - The header should always be visible, even when the user scrolls down.
+- Read the HTML, but you shouldn't have to change it.
 - We have provided **CSS Variables** to be used in the style rules. You should use them! And you do not need to edit them.
 - We have provided empty CSS rules for all the classes in the html. Not every CSS rule needs to be filled.
 - Have fun!
