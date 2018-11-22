@@ -33,28 +33,86 @@ html {
 
 /* GENERAL */      
 
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
+body {
+  font-family: var(--font-body);
+}
+
+h1 {
+  font-size: var(--font-x-large);
+  font-family: var(--font-header);
+  color: var(--dark-grey);
+}
+h2 {
+  font-size: var(--font-x-large);
+  font-family: var(--font-header);
+  color: var(--dark-grey);
+}
+h3 {
+  font-size: var(--font-large);
+  font-family: var(--font-header);
+  color: var(--dark-grey);
+}
+h4 {
+  font-size: var(--font-medium);
+  font-family: var(--font-header);
+  color: var(--dark-grey);
+  text-transform: uppercase;
+}
+h5 {
+  font-size: var(--font-medium);
+  font-family: var(--font-header);
+  color: var(--light-grey);
+}
+
 
 /* SECTIONS */
 
+main {
+  padding:
+    var(--spacing-large)
+    var(--spacing-large)
+    var(--spacing-medium)
+    var(--spacing-large);
+}
 .section {}
 .search-section {}
 .homes-section {}
 
 /* HEADER */
 
-.header {}
-.logo {}
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  padding:
+    var(--spacing-small)
+    var(--spacing-medium);
+  background: var(--background);
+  border-bottom: 1px solid var(--lightest-grey);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
 
 /* NAV */
 
-.nav {}
-.nav__list {}
-.nav__item {}
+.nav {
+
+}
+.nav__list {
+  margin: var(--spacing-none);
+  padding: var(--spacing-none);
+  list-style: none;
+  display: inline;
+}
+.nav__item {
+  display: inline;
+  margin-right: var(--spacing-medium);
+}
 
 /* SEARCH BOX */
 
@@ -65,4 +123,6 @@ h5 {}
 /* DETAIL CARD */
 
 .detail-card {}
-.detail-card__image {}
+.detail-card__image {
+  width: 100%;
+}
