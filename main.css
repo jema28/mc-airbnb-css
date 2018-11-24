@@ -1,0 +1,72 @@
+/* VARIABLES (do not edit this section!) */
+
+html {
+  /* spacing */
+  --spacing-none: 0;
+  --spacing-x-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-x-large: 4rem;
+  --spacing-xx-large: 8rem;
+
+  /* font-sizes */
+  --font-x-small: 0.75rem;
+  --font-small: 0.875rem;
+  --font-medium: 1rem;
+  --font-large: 1.25rem;
+  --font-x-large: 1.5rem;
+  --font-xx-large: 2.25rem;
+  --font-xxx-large: 3rem;
+
+  /* font-family */
+  --font-header: 'Lato', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  /* colours */
+  --background: #FFFFFF;
+  --primary: #FD5C63;
+  --dark-grey: #3D4E61;
+  --light-grey: #687C94;
+  --lightest-grey: #E1E7ED;
+}
+
+/* GENERAL */      
+
+body {}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* SECTIONS */
+
+main {}
+
+.section {}
+.search-section {}
+.homes-section {}
+
+/* HEADER */
+
+.header {}
+.logo {}
+
+/* NAV */
+
+.nav {}
+.nav__list {}
+.nav__item {}
+
+/* SEARCH BOX */
+
+.search-box {}
+.search-box__icon {}
+.search-box__input {}
+
+/* DETAIL CARD */
+
+.detail-card {}
+.detail-card__image {}

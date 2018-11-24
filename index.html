@@ -5,46 +5,73 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Airbnb CSS Challenge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <img src="./assets/logo.png" alt="logo png">
-    <nav>
-      <ul>
-        <li>Profile</li>
-        <li>Trips</li>
+  <header class="header">
+    <img
+      class="logo"
+      src="./assets/logo.png"
+      alt="logo"
+    >
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">Profile</li>
+        <li class="nav__item">Trips</li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
+    <section class="section search-section">
       <h1>Book unique homes and experiences all over the world.</h1>
-      <div>
-        <img src="./assets/search.svg" alt="search icon" width="20px">
-        <input type="text" placeholder="Try 'Palestine'">
+      <div class="search-box">
+        <img
+          class="search-box__icon"
+          src="./assets/search.svg"
+          alt="search icon"
+          width="20px"
+        >
+        <input
+          class="search-box__input"
+          type="text"
+          placeholder="Try 'Palestine'"
+        >
       </div>
     </section>
 
-    <section>
+    <section class="section homes-section">
       <h2>Homes</h2>
 
-      <div>
-        <img src="./assets/room1.png" alt="quiet apartment">
+      <div class="detail-card">
+        <img
+          class="detail-card__image"
+          src="./assets/room1.png"
+          alt="quiet apartment"
+        >
         <h4>Entire apartment</h4>
         <h3>Quiet apartment</h3>
         <h5>80$ per night</h5>
       </div>
-      <div>
-        <img src="./assets/room2.png" alt="romantic cabin with view">
+      <div class="detail-card">
+        <img
+          class="detail-card__image"
+          src="./assets/room2.png"
+          alt="romantic cabin with view"
+        >
         <h4>Entire apartment</h4>
         <h3>Romantic cabin with view</h3>
         <h5>80$ per night</h5>
       </div>
-      <div>
-        <img src="./assets/room3.png" alt="beautiful cozy room">
+      <div class="detail-card">
+        <img
+          class="detail-card__image"
+          src="./assets/room3.png"
+          alt="beautiful cozy room"
+        >
         <h4>Private room</h4>
         <h3>Beautiful cozy room</h3>
         <h5>80$ per night</h5>
