@@ -54,12 +54,6 @@ h5 {}
 
 main {}
 
-.section {}
-
-.search-section {}
-
-.homes-section {}
-
 /* HEADER */
 
 .header {}
@@ -81,6 +75,10 @@ main {}
 .search-box__icon {}
 
 .search-box__input {}
+
+/* HOMES */
+
+.homes-list {}
 
 /* DETAIL CARD */
 
