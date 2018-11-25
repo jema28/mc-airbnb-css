@@ -179,7 +179,7 @@ main {
     flex-direction: row;
   }
   .detail-card {
-    width: calc(100% / 3);
+    width: 33.33%;
     margin-bottom: var(--spacing-large);
   }
   .detail-card:nth-child(3n + 1) {
