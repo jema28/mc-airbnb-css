@@ -28,7 +28,7 @@ Your task is to implement the following **mobile design** using CSS:
 
 ## CSS Variables
 
-We have defined some CSS variables [MDN link](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) to be used in style rules. Check them out at the top of the `main.css` file.
+We have defined some CSS variables ([MDN link](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)) to be used in style rules. Check them out at the top of the `main.css` file.
 
 Variable definition:
 
