@@ -11,7 +11,9 @@
 
 Your task is to implement the following **mobile design** using CSS:
 
-<img align="left" src="https://user-images.githubusercontent.com/25960351/48894868-76089800-ee4c-11e8-8125-70f977b0902b.png">
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/25960351/48894868-76089800-ee4c-11e8-8125-70f977b0902b.png">
+</p>
 
 **Notes:**
 
