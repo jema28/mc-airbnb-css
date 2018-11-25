@@ -13,8 +13,6 @@ Your task is to implement the following **mobile design** using CSS:
 
 ![mobile design](https://user-images.githubusercontent.com/25960351/48894868-76089800-ee4c-11e8-8125-70f977b0902b.png)
 
-**Source:** Nicole Saidy, [Streamline your workflow: The efficient UI/UX design process in Figma](https://www.skillshare.com/classes/Streamline-your-workflow-The-efficient-UIUX-design-process-in-Figma/1199486748/project-guide)
-
 **Notes:**
 
 - Read the HTML, but you shouldn't change it.
@@ -57,3 +55,5 @@ If you haven't already, add the extension to your editor to allow you to see the
 ## Further Reading
 
 - [introduction to BEM](http://getbem.com/introduction/)
+
+**Design source:** Nicole Saidy, [Streamline your workflow: The efficient UI/UX design process in Figma](https://www.skillshare.com/classes/Streamline-your-workflow-The-efficient-UIUX-design-process-in-Figma/1199486748/project-guide) / [Figma link](https://www.figma.com/file/eYSN1YL4WnSvEojPzmUIOp/Airbnb-Design)
