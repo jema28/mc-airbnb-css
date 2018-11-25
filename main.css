@@ -32,6 +32,8 @@ html {
   --dark-grey: #3D4E61;
   --light-grey: #687C94;
   --lightest-grey: #E1E7ED;
+
+  font-size: 16px;
 }
 
 /* GENERAL */
