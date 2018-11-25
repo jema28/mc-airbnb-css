@@ -11,7 +11,7 @@
 
 Your task is to implement the following **mobile design** using CSS:
 
-![mobile design](https://user-images.githubusercontent.com/25960351/48894868-76089800-ee4c-11e8-8125-70f977b0902b.png)
+<img align="left" src="https://user-images.githubusercontent.com/25960351/48894868-76089800-ee4c-11e8-8125-70f977b0902b.png">
 
 **Notes:**
 
@@ -20,7 +20,7 @@ Your task is to implement the following **mobile design** using CSS:
 - We have provided empty CSS rules for all the classes in the html. Not every CSS rule needs to be filled.
 - Have fun!
 
-Stretch Goal:
+**Stretch Goal:**
 
 - Draw your own desktop design and implement it using media queries!
 
