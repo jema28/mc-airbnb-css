@@ -57,13 +57,13 @@ h3 {
 }
 
 h4 {
-  font-size: var(--font-medium);
+  font-size: var(--font-small);
   font-family: var(--font-header);
   color: var(--dark-grey);
   text-transform: uppercase;
   margin-top: var(--spacing-none);
   margin-bottom: var(--spacing-small);
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 
 h5 {
@@ -78,15 +78,11 @@ h5 {
 /* SECTIONS */
 
 main {
+  max-width: 620px;
+  margin: auto;
   padding:
     var(--spacing-large) var(--spacing-large) var(--spacing-medium) var(--spacing-large);
 }
-
-.section {}
-
-.search-section {}
-
-.homes-section {}
 
 /* HEADER */
 
@@ -108,8 +104,6 @@ main {
 }
 
 /* NAV */
-
-.nav {}
 
 .nav__list {
   margin: var(--spacing-none);
@@ -142,7 +136,6 @@ main {
   width: 25px;
   fill: var(--light-grey);
   padding-right: var(--spacing-small);
-
 }
 
 .search-box__input::placeholder {
@@ -154,7 +147,8 @@ main {
     var(--spacing-small) var(--spacing-small) var(--spacing-small) 0;
   margin-left: var(--spacing-small);
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid var(--background); /* 'hack' to prevent jumping on focus */
+  transition: border-bottom 0.3s ease;
 }
 
 .search-box__input:focus {
@@ -165,6 +159,8 @@ main {
 /* DETAIL CARD */
 
 .detail-card {
+  box-sizing: border-box;
+  width: 100%;
   margin-bottom: var(--spacing-x-large);
   border-radius: 4px;
 }
@@ -172,4 +168,28 @@ main {
 .detail-card__image {
   width: 100%;
   margin-bottom: var(--spacing-medium);
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  /* homes-list becomes a 3 column flex grid on desktop */
+  .homes-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .detail-card {
+    width: calc(100% / 3);
+    margin-bottom: var(--spacing-large);
+  }
+  .detail-card:nth-child(3n + 1) {
+    padding-right: var(--spacing-x-small);
+  }
+  .detail-card:nth-child(3n + 2) {
+    padding-right: var(--spacing-x-small);
+    padding-left: var(--spacing-x-small);
+  }
+  .detail-card:nth-child(3n) {
+    padding-left: var(--spacing-x-small);
+  }
 }
