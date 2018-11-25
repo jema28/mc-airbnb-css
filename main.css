@@ -10,14 +10,17 @@ html {
   --spacing-x-large: 4rem;
   --spacing-xx-large: 8rem;
 
-  /* font-sizes */
-  --font-x-small: 0.75rem;
-  --font-small: 0.875rem;
+  /* font-sizes
+  Small: 12px
+  Medium: 16px
+  Large: 20px
+  X-large: 28px
+  */
+
+  --font-small: 0.75rem;
   --font-medium: 1rem;
   --font-large: 1.25rem;
-  --font-x-large: 1.5rem;
-  --font-xx-large: 2.25rem;
-  --font-xxx-large: 3rem;
+  --font-x-large: 1.75rem;
 
   /* font-family */
   --font-header: 'Lato', sans-serif;
@@ -29,16 +32,22 @@ html {
   --dark-grey: #3D4E61;
   --light-grey: #687C94;
   --lightest-grey: #E1E7ED;
+
+  font-size: 16px;
 }
 
-/* GENERAL */      
+/* GENERAL */
 
 body {}
 
 h1 {}
+
 h2 {}
+
 h3 {}
+
 h4 {}
+
 h5 {}
 
 /* SECTIONS */
@@ -46,27 +55,35 @@ h5 {}
 main {}
 
 .section {}
+
 .search-section {}
+
 .homes-section {}
 
 /* HEADER */
 
 .header {}
+
 .logo {}
 
 /* NAV */
 
 .nav {}
+
 .nav__list {}
+
 .nav__item {}
 
 /* SEARCH BOX */
 
 .search-box {}
+
 .search-box__icon {}
+
 .search-box__input {}
 
 /* DETAIL CARD */
 
 .detail-card {}
+
 .detail-card__image {}
