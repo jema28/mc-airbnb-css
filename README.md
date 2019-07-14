@@ -9,12 +9,9 @@
 
 ## Task
 
-Your task is to implement the following **mobile design** using CSS. 
-
-**Notes:**
-
+Implement the following **mobile design** using CSS. A few things to note: 
 - Read the HTML, but you shouldn't change it.
-- We have provided **CSS Variables** to be used in the style rules. You should use them but you do not need to edit the definitions!
+- We have provided **CSS Variables** to be used in the style rules. You should use them but no need to edit the definitions!
 - We have provided empty CSS rules for all the classes in the html. Not every CSS rule needs to be filled.
 
 <p align="left">
@@ -43,13 +40,13 @@ How to use them:
 
 ### Colours
 
-Here you can see a screenshot from my editor, displaying the colours which we have defined for you:
+Here you can see a screenshot displaying the colours which we have defined for you:
 
 <img src="https://user-images.githubusercontent.com/16781318/48892918-cfba9380-ee47-11e8-8c9b-2481912c05fe.png" height="150px">
 
 
 ## Further Reading
 
-- [introduction to BEM](http://getbem.com/introduction/)
+- [Introduction to BEM](http://getbem.com/introduction/)
 
 **Design source:** Nicole Saidy, [Streamline your workflow: The efficient UI/UX design process in Figma](https://www.skillshare.com/classes/Streamline-your-workflow-The-efficient-UIUX-design-process-in-Figma/1199486748/project-guide) / [Figma link](https://www.figma.com/file/eYSN1YL4WnSvEojPzmUIOp/Airbnb-Design)
